@@ -1,0 +1,276 @@
+body, section, nav{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+body{
+    background-color: #e5d4b9 ;
+}
+
+body::selection{
+    color: #e5d4b9;
+    background-color: black;
+}
+
+section{
+    border-top: 4px dashed black;
+    margin-top: 200px;
+    margin: 100px;
+}
+
+video:hover, .scale:hover{
+    transform: scale(1.03);
+}
+
+section:first-of-type{
+    border-top: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+#witcher3 ul{
+    list-style-type: disc;
+}
+
+#witcher3 ul p{
+    text-align: center;
+}
+
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    padding: 10px;
+    margin-left: -14px;
+    padding-right: 0;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background-color: #ebd5b3;
+    border: 2px solid black;
+    z-index: 2;
+}
+
+.main-ul{
+    margin: 0;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    bottom: 0;
+    width: 97.7%;
+    justify-content:space-around;
+}
+
+.main-ul li:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+
+header{
+    position: relative;
+    background: url("./assets/banner.png");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#books{
+    margin-top: 100px;
+}
+
+h2, h3, h4{
+    width: 100%;
+    text-align: center;
+}
+
+.books-list-header{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.books-list{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.1em;
+    border: 5px solid black;
+    border-radius: 410px;
+    text-align: center;
+    background-color: #ebd5b3;
+}
+
+.trailer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.witcher1-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3{
+    margin-top: 60px;
+}
+
+.iorvethVSroche{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.roche{
+    width: 50%;
+}
+
+.roche img{
+    width: 100%;
+}
+
+.iorveth{
+    width: 50%;
+}
+
+.iorveth img{
+    width: 100%;
+}
+
+.roche, .iorveth{
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #ebd5b3;
+}
+
+.witcher3-trailer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.witcher3-trailer img{
+    width: 50% ;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cards div{
+    width: 30%;
+    border: 4px solid black;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.velen{
+    background-color: #874b0f;
+}
+
+.novigrad{
+    background-color: #d09e23  ;
+}
+
+.sckelige{
+    background-color: #bcc8e6   ;
+}
+
+.endings-1{
+    background-color: #b8860b ;
+}
+
+.endings-2{
+    background-color: #a0a0a0  ;
+}
+
+.endings-3{
+    background-color: #755a57    ;
+}
+
+.endings-1, .endings-2, .endings-3{
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.endings-1-content img, .endings-2-content img, .endings-3-content img{
+    width: 30%;
+}
+
+.dlc-stone-hurts, .dlc-blode-wine{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.dlc-stone-hurts p, .dlc-blode-wine p,.endings-1 p, .endings-2 p, .endings-3 p, .cards p, .iorvethVSroche p{
+    padding: 20px;
+}
+
+.dlc-stone-hurts{
+    background-color: #7ca4cc   ;
+}
+
+.dlc-blode-wine{
+    background-color: #8a3324     ;
+}
+
+
+.dlc img{
+    width: 100%;
+}
+
+.dlc-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: #e5d4b9;
+}
+
+button, input{
+    font-size: 22px;
+    background-color: #e5d4b9;
+    color: black;
+}
+
